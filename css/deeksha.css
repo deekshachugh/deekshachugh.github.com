@@ -1,0 +1,52 @@
+.navbar-inner {
+	background:url('../img/back.png') repeat;
+	border: 0px;
+}
+
+.navbar {
+	display: none;
+}
+
+@media (max-width: 480px){
+   header .cta a{
+   display:inline;
+   }
+}
+
+.lastModified {
+	text-align: left;
+}
+.social {
+	text-align: right;
+}
+@media all and (max-device-width: 400px) {
+	.lastModified {
+		display: none;
+	}
+	.social {
+		text-align: center;
+	}
+}
+
+footer .social-info a {
+	padding: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+a.anchorLink {
+	color: #fff;
+}
+
+.products, .education {
+	color:#555;
+}
+
+li > a {
+  text-decoration: none;
+  border-bottom: 1px dotted;
+}
+
+li {
+  padding-top: 10px;
+}
