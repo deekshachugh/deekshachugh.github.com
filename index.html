@@ -134,7 +134,12 @@
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-46844487-1', 'aawc.github.io');
-  ga('send', 'pageview');
+  
+  ga('send', 'pageview', {
+ 	'dimension1':  age,
+ 	'dimension2':  gender
+  });
+
 	</script>
 </body>
 </html>
